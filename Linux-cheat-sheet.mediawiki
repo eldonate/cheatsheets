@@ -9,3 +9,11 @@
  chkconfig ntpd on
  /etc/init.d/ntpd start
 
+=== show ram usage ===
+free -mh
+
+=== show disk space usage ===
+df -mh
+
+=== show disk partitions ===
+lsblk
